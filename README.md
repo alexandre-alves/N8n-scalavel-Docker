@@ -1,5 +1,6 @@
 # N8n-scalavel-Docker#
-<img width="1408" height="768" alt="Gemini_Generated_Image_xrixlhxrixlhxrix" src="https://github.com/user-attachments/assets/2adc14d4-4dde-401d-8d0b-d4c4e76567bc" />
+ <img width="1408" height="768" alt="N8n-estrutura-d-scala" src="https://github.com/user-attachments/assets/80ee28f5-dbb7-4ee5-9b58-c39f1750a348" />
+
 
 # Documentação de Implantação: n8n (Queue Mode)
 Não esqueça de renomear e tirar o -main ou -worker de docker-compose.yml é apenas para identificar os arquivos.
