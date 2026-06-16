@@ -1,0 +1,16 @@
+services:
+  n8n-worker:
+    image: docker.n8n.io/n8nio/n8n
+    restart: always
+    command: worker --concurrency=30 # Com 4 CPUs/8GB, 30 é um bom ponto de partida
+    environment:
+      - N8N_ENCRYPTION_KEY=${N8N_ENCRYPTION_KEY}
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=IP_DO_SEU_SERVIDOR
+      - DB_POSTGRESDB_PORT=5454 # Porta externa configurada no main
+      - DB_POSTGRESDB_DATABASE=${POSTGRES_DB}
+      - DB_POSTGRESDB_USER=${POSTGRES_USER}
+      - DB_POSTGRESDB_PASSWORD=${POSTGRES_PASSWORD}
+      - EXECUTIONS_MODE=${EXECUTIONS_MODE}
+      - N8N_QUEUE_BULL_REDIS_HOST=IP_DO_SEU_SERVIDOR
+      - N8N_QUEUE_BULL_REDIS_PORT=6379
