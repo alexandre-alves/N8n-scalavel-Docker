@@ -1,5 +1,6 @@
 # N8n-scalavel-Docker#
 # Documentação de Implantação: n8n (Queue Mode)
+Não esqueça de renomear e tirar o -main ou -worker é apenas para identificar os arquivos.
 
 ## 1. Visão Geral
 Esta documentação descreve a configuração do **n8n** operando em modo de fila (*Queue Mode*), utilizando **PostgreSQL** para persistência e **Redis** como broker de mensagens. Esta arquitetura permite a separação entre o plano de controle (*n8n-main*) e o plano de processamento (*n8n-worker*), garantindo escalabilidade e alta disponibilidade.
