@@ -1,5 +1,5 @@
 # N8n-scalavel-Docker#
- <img width="1408" height="768" alt="N8n-estrutura-d-scala" src="https://github.com/user-attachments/assets/80ee28f5-dbb7-4ee5-9b58-c39f1750a348" />
+<img width="1408" height="768" alt="N8n-estrutura-d-scala" src="https://github.com/user-attachments/assets/a5a4a443-c85e-4c89-a534-968b6ad6042f" />
 
 
 # Documentação de Implantação: n8n (Queue Mode)
